@@ -1,0 +1,90 @@
+/* Estilos generales de la tarjeta */
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: calc(16.66% - 20px); /* Seis tarjetas por fila */
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    
+  }
+  
+  .card-image img {
+    /* Estilos de la imagen */
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+  }
+  
+  .card-content {
+    /* Estilos del contenido de la tarjeta */
+    margin-top: -12px;
+  }
+
+  .card-cont{
+    font-size: 10px;
+
+  }
+  
+  .card-title {
+    /* Estilos del título */
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    width: 96px;
+    /* height: 3px; */
+    margin: 17px;
+  }
+  
+  .card-body {
+    /* Estilos del cuerpo */
+    margin-bottom: 10px;
+    font-size: 13px;
+    margin: -19px;
+    width: 179px;
+    text-align: justify;
+  }
+  
+  /* Contenedor de las tarjetas */
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Agrega envoltura para dispositivos móviles */
+    margin: -10px; /* Ajusta los márgenes negativos para eliminar espacios */
+  }
+  
+  .card-button {
+    /* Estilos del botón */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 23px;
+    width: 86px;
+  }
+  
+  /* Estilos del contador */
+  .contador {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Estilos de los botones del contador */
+  .contador button {
+    margin: 5px;
+  }
+  
+  /* Media Query para dispositivos móviles */
+  @media (max-width: 700px) {
+    .card {
+      width: 70%; /* Ocupar todo el ancho en dispositivos móviles */
+      margin: 10px auto; /* Centrar horizontalmente */
+    }
+  
+    .card-button {
+      margin-top: 25px; /* Ajusta el margen superior del botón en dispositivos móviles */
+    }
+  }
+  
